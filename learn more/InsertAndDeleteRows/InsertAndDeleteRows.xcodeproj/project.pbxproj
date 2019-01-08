@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB9579D21039E330080BAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9579C21039E330080BAEE /* AppDelegate.swift */; };
+		0CB9579F21039E330080BAEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9579E21039E330080BAEE /* ViewController.swift */; };
+		0CB957A221039E330080BAEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB957A021039E330080BAEE /* Main.storyboard */; };
+		0CB957A521039E330080BAEE /* InsertAndDeleteRows.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CB957A321039E330080BAEE /* InsertAndDeleteRows.xcdatamodeld */; };
+		0CB957A721039E340080BAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB957A621039E340080BAEE /* Assets.xcassets */; };
+		0CB957AA21039E340080BAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB957A821039E340080BAEE /* LaunchScreen.storyboard */; };
+		0CB957B521039E340080BAEE /* InsertAndDeleteRowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB957B421039E340080BAEE /* InsertAndDeleteRowsTests.swift */; };
+		0CB957C021039E350080BAEE /* InsertAndDeleteRowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB957BF21039E350080BAEE /* InsertAndDeleteRowsUITests.swift */; };
+		0CB957CE21039E510080BAEE /* ViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB957CD21039E510080BAEE /* ViewControllerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CB957B121039E340080BAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB9579121039E330080BAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB9579821039E330080BAEE;
+			remoteInfo = InsertAndDeleteRows;
+		};
+		0CB957BC21039E340080BAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB9579121039E330080BAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB9579821039E330080BAEE;
+			remoteInfo = InsertAndDeleteRows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB9579921039E330080BAEE /* InsertAndDeleteRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsertAndDeleteRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB9579C21039E330080BAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CB9579E21039E330080BAEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CB957A121039E330080BAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CB957A421039E330080BAEE /* InsertAndDeleteRows.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InsertAndDeleteRows.xcdatamodel; sourceTree = "<group>"; };
+		0CB957A621039E340080BAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CB957A921039E340080BAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CB957AB21039E340080BAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB957B021039E340080BAEE /* InsertAndDeleteRowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertAndDeleteRowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB957B421039E340080BAEE /* InsertAndDeleteRowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertAndDeleteRowsTests.swift; sourceTree = "<group>"; };
+		0CB957B621039E340080BAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB957BB21039E340080BAEE /* InsertAndDeleteRowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertAndDeleteRowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB957BF21039E350080BAEE /* InsertAndDeleteRowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertAndDeleteRowsUITests.swift; sourceTree = "<group>"; };
+		0CB957C121039E350080BAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB957CD21039E510080BAEE /* ViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB9579621039E330080BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB957AD21039E340080BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB957B821039E340080BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB9579021039E330080BAEE = {
+			isa = PBXGroup;
+			children = (
+				0CB9579B21039E330080BAEE /* InsertAndDeleteRows */,
+				0CB957B321039E340080BAEE /* InsertAndDeleteRowsTests */,
+				0CB957BE21039E350080BAEE /* InsertAndDeleteRowsUITests */,
+				0CB9579A21039E330080BAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CB9579A21039E330080BAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CB9579921039E330080BAEE /* InsertAndDeleteRows.app */,
+				0CB957B021039E340080BAEE /* InsertAndDeleteRowsTests.xctest */,
+				0CB957BB21039E340080BAEE /* InsertAndDeleteRowsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CB9579B21039E330080BAEE /* InsertAndDeleteRows */ = {
+			isa = PBXGroup;
+			children = (
+				0CB9579C21039E330080BAEE /* AppDelegate.swift */,
+				0CB9579E21039E330080BAEE /* ViewController.swift */,
+				0CB957CD21039E510080BAEE /* ViewControllerCell.swift */,
+				0CB957A021039E330080BAEE /* Main.storyboard */,
+				0CB957A621039E340080BAEE /* Assets.xcassets */,
+				0CB957A821039E340080BAEE /* LaunchScreen.storyboard */,
+				0CB957AB21039E340080BAEE /* Info.plist */,
+				0CB957A321039E330080BAEE /* InsertAndDeleteRows.xcdatamodeld */,
+			);
+			path = InsertAndDeleteRows;
+			sourceTree = "<group>";
+		};
+		0CB957B321039E340080BAEE /* InsertAndDeleteRowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CB957B421039E340080BAEE /* InsertAndDeleteRowsTests.swift */,
+				0CB957B621039E340080BAEE /* Info.plist */,
+			);
+			path = InsertAndDeleteRowsTests;
+			sourceTree = "<group>";
+		};
+		0CB957BE21039E350080BAEE /* InsertAndDeleteRowsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CB957BF21039E350080BAEE /* InsertAndDeleteRowsUITests.swift */,
+				0CB957C121039E350080BAEE /* Info.plist */,
+			);
+			path = InsertAndDeleteRowsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CB9579821039E330080BAEE /* InsertAndDeleteRows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB957C421039E350080BAEE /* Build configuration list for PBXNativeTarget "InsertAndDeleteRows" */;
+			buildPhases = (
+				0CB9579521039E330080BAEE /* Sources */,
+				0CB9579621039E330080BAEE /* Frameworks */,
+				0CB9579721039E330080BAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsertAndDeleteRows;
+			productName = InsertAndDeleteRows;
+			productReference = 0CB9579921039E330080BAEE /* InsertAndDeleteRows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CB957AF21039E340080BAEE /* InsertAndDeleteRowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB957C721039E350080BAEE /* Build configuration list for PBXNativeTarget "InsertAndDeleteRowsTests" */;
+			buildPhases = (
+				0CB957AC21039E340080BAEE /* Sources */,
+				0CB957AD21039E340080BAEE /* Frameworks */,
+				0CB957AE21039E340080BAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB957B221039E340080BAEE /* PBXTargetDependency */,
+			);
+			name = InsertAndDeleteRowsTests;
+			productName = InsertAndDeleteRowsTests;
+			productReference = 0CB957B021039E340080BAEE /* InsertAndDeleteRowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CB957BA21039E340080BAEE /* InsertAndDeleteRowsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB957CA21039E350080BAEE /* Build configuration list for PBXNativeTarget "InsertAndDeleteRowsUITests" */;
+			buildPhases = (
+				0CB957B721039E340080BAEE /* Sources */,
+				0CB957B821039E340080BAEE /* Frameworks */,
+				0CB957B921039E340080BAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB957BD21039E340080BAEE /* PBXTargetDependency */,
+			);
+			name = InsertAndDeleteRowsUITests;
+			productName = InsertAndDeleteRowsUITests;
+			productReference = 0CB957BB21039E340080BAEE /* InsertAndDeleteRowsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CB9579121039E330080BAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Luy Nguyen";
+				TargetAttributes = {
+					0CB9579821039E330080BAEE = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					0CB957AF21039E340080BAEE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 0CB9579821039E330080BAEE;
+					};
+					0CB957BA21039E340080BAEE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 0CB9579821039E330080BAEE;
+					};
+				};
+			};
+			buildConfigurationList = 0CB9579421039E330080BAEE /* Build configuration list for PBXProject "InsertAndDeleteRows" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CB9579021039E330080BAEE;
+			productRefGroup = 0CB9579A21039E330080BAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CB9579821039E330080BAEE /* InsertAndDeleteRows */,
+				0CB957AF21039E340080BAEE /* InsertAndDeleteRowsTests */,
+				0CB957BA21039E340080BAEE /* InsertAndDeleteRowsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CB9579721039E330080BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB957AA21039E340080BAEE /* LaunchScreen.storyboard in Resources */,
+				0CB957A721039E340080BAEE /* Assets.xcassets in Resources */,
+				0CB957A221039E330080BAEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB957AE21039E340080BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB957B921039E340080BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CB9579521039E330080BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB9579F21039E330080BAEE /* ViewController.swift in Sources */,
+				0CB957A521039E330080BAEE /* InsertAndDeleteRows.xcdatamodeld in Sources */,
+				0CB957CE21039E510080BAEE /* ViewControllerCell.swift in Sources */,
+				0CB9579D21039E330080BAEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB957AC21039E340080BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB957B521039E340080BAEE /* InsertAndDeleteRowsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB957B721039E340080BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB957C021039E350080BAEE /* InsertAndDeleteRowsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB957B221039E340080BAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CB9579821039E330080BAEE /* InsertAndDeleteRows */;
+			targetProxy = 0CB957B121039E340080BAEE /* PBXContainerItemProxy */;
+		};
+		0CB957BD21039E340080BAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CB9579821039E330080BAEE /* InsertAndDeleteRows */;
+			targetProxy = 0CB957BC21039E340080BAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CB957A021039E330080BAEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CB957A121039E330080BAEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CB957A821039E340080BAEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CB957A921039E340080BAEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CB957C221039E350080BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CB957C321039E350080BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CB957C521039E350080BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsertAndDeleteRows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luy.InsertAndDeleteRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CB957C621039E350080BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsertAndDeleteRows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luy.InsertAndDeleteRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CB957C821039E350080BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsertAndDeleteRowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luy.InsertAndDeleteRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertAndDeleteRows.app/InsertAndDeleteRows";
+			};
+			name = Debug;
+		};
+		0CB957C921039E350080BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsertAndDeleteRowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luy.InsertAndDeleteRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertAndDeleteRows.app/InsertAndDeleteRows";
+			};
+			name = Release;
+		};
+		0CB957CB21039E350080BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsertAndDeleteRowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luy.InsertAndDeleteRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsertAndDeleteRows;
+			};
+			name = Debug;
+		};
+		0CB957CC21039E350080BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsertAndDeleteRowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luy.InsertAndDeleteRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsertAndDeleteRows;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB9579421039E330080BAEE /* Build configuration list for PBXProject "InsertAndDeleteRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB957C221039E350080BAEE /* Debug */,
+				0CB957C321039E350080BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB957C421039E350080BAEE /* Build configuration list for PBXNativeTarget "InsertAndDeleteRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB957C521039E350080BAEE /* Debug */,
+				0CB957C621039E350080BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB957C721039E350080BAEE /* Build configuration list for PBXNativeTarget "InsertAndDeleteRowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB957C821039E350080BAEE /* Debug */,
+				0CB957C921039E350080BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB957CA21039E350080BAEE /* Build configuration list for PBXNativeTarget "InsertAndDeleteRowsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB957CB21039E350080BAEE /* Debug */,
+				0CB957CC21039E350080BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0CB957A321039E330080BAEE /* InsertAndDeleteRows.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CB957A421039E330080BAEE /* InsertAndDeleteRows.xcdatamodel */,
+			);
+			currentVersion = 0CB957A421039E330080BAEE /* InsertAndDeleteRows.xcdatamodel */;
+			path = InsertAndDeleteRows.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0CB9579121039E330080BAEE /* Project object */;
+}
